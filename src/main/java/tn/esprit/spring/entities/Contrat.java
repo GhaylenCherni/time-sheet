@@ -30,6 +30,8 @@ public class Contrat implements Serializable {
 	private Date dateDebut;
 	 
 	private String typeContrat;
+
+	// test
  
 	@JsonIgnore
 	@OneToOne(mappedBy="contrat")
